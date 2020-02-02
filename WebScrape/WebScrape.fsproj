@@ -6,13 +6,21 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="nplainfieldStart.txt">
+    <Content Include="testers\step2-0.txt" />
+    <Content Include="testers\step2-1.txt" />
+    <Content Include="testers\step2-2.txt" />
+    <Content Include="testers\step2-3.txt" />
+    <Content Include="testers\step2-4.txt" />
+    <Content Include="testers\step2-5.txt" />
+    <Content Include="testers\step2-6.txt" />
+    <Content Include="testers\step2-7.txt" />
+    <Content Include="testers\step2-8.txt" />
+    <Content Include="testers\step2-9.txt" />
+    <Content Include="testers\nplainfieldStart.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Compile Include="Program.fs" />
   </ItemGroup>
-
-  <ItemGroup />
 
   <ItemGroup>
     <PackageReference Include="FSharp.Data" Version="3.3.3" />
